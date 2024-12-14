@@ -147,7 +147,7 @@ Show # Expedition-Artifacts
 	SetTextColor 255 85 85 255
 	SetBackgroundColor 61 8 8 255
 	SetBorderColor 255 85 85 255
-	CustomAlertSound "AlertSound_12.wav" 300
+	CustomAlertSound "AlertSound_1.wav" 300
 	MinimapIcon 1 Purple UpsideDownHouse
 
 Show # Vault Keys
