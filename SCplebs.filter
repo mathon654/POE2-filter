@@ -8,7 +8,7 @@ Show # QUEST ITEMS
 	SetTextColor 0 255 54 255
 	SetBorderColor 0 255 54 255
 	SetBackgroundColor 1 43 0 255
-  CustomAlertSound "AlertSound_03.wav" 300
+  PlayAlertSound 7 300
 	SetFontSize 45
 	MinimapIcon 0 Green Star
 	PlayEffect Green Temp
@@ -49,7 +49,7 @@ Show # Yellow Maps
   SetBackgroundColor 20 20 0 255
   PlayEffect Yellow
   MinimapIcon 1 Yellow Square
-  CustomAlertSound "AlertSound_02.wav" 300
+  CustomAlertSound "AlertSound_03.wav" 300
 
 Show # White Maps
 	Class == "Waystones"
@@ -60,7 +60,7 @@ Show # White Maps
   SetBackgroundColor 20 20 0 255
   PlayEffect White
   MinimapIcon 1 White Hexagon
-  CustomAlertSound "AlertSound_02.wav" 300
+  CustomAlertSound "AlertSound_01.wav" 300
 
 Show # Simulacrum
 	Class == "Map Fragments"
@@ -147,6 +147,7 @@ Show # Expedition-Artifacts
 	SetTextColor 255 85 85 255
 	SetBackgroundColor 61 8 8 255
 	SetBorderColor 255 85 85 255
+	CustomAlertSound "AlertSound_12.wav" 300
 	MinimapIcon 1 Purple UpsideDownHouse
 
 Show # Vault Keys
@@ -174,7 +175,7 @@ Show # Inscribed Ultimatum
 	SetTextColor 255 0 255 255
 	SetBorderColor 255 0 255 255
 	SetBackgroundColor 100 0 100 255
-	CustomAlertSound "AlertSound_02.wav" 300
+	CustomAlertSound "AlertSound_09.wav" 300
 	PlayEffect Pink
 	MinimapIcon 0 Pink Circle
 
@@ -188,21 +189,25 @@ Show # Relics
 	CustomAlertSound "AlertSound_02.wav" 300
   MinimapIcon 2 Cyan Triangle
 
+#稀有宝石
 Show # Rare Jewels
 	Class "Jewel"
 	Rarity Rare
 	SetTextColor 0 240 190
 	SetBorderColor 0 240 190
 	SetFontSize 45
+	CustomAlertSound "AlertSound_08.wav" 300
 	MinimapIcon 2 Cyan Triangle
 	PlayEffect Cyan
 
+#蓝色宝石
 Show # Magic Jewels
   Class "Jewel"
   Rarity Magic
   SetTextColor 0 240 190
   SetBorderColor 0 240 190
   SetFontSize 40
+	CustomAlertSound "AlertSound_06.wav" 300
   PlayEffect Cyan Temp
 
 Show # Soul Core Items
@@ -225,6 +230,7 @@ Show # Pinnacle Keys
 	PlayEffect Blue
 	MinimapIcon 1 Blue Star
 
+#符文
 Show # Runes
 	BaseType == "Desert Rune" "Glacial Rune" "Storm Rune" "Iron Rune" "Body Rune" "Mind Rune" "Rebirth Rune" "Inspiration Rune" "Stone Rune" "Vision Rune"
 	SetFontSize 45
@@ -409,6 +415,7 @@ Show # Currency - The Remaining Currency
 	PlayEffect Orange
 	MinimapIcon 0 Orange Circle
 
+#技能石
 Show # Uncut
 	BaseType == "Uncut Skill Gem" "Uncut Support Gem" "Uncut Spirit Gem"
 	SetFontSize 45
@@ -416,9 +423,10 @@ Show # Uncut
 	SetBorderColor 0 255 0
 	SetBackgroundColor 0 0 0
 	PlayEffect Green
-	CustomAlertSound "AlertSound_05.wav" 300
+	CustomAlertSound "AlertSound_07.wav" 300
 	MinimapIcon 0 Green Circle
 
+#技能石
 Show # Gems
 	Class == "Skill Gems" "Support Gems"
 	SetFontSize 45
@@ -478,6 +486,7 @@ Show # Superior and Quality
   SetFontSize 45
   Quality > 0
   SetBorderColor 210 0 0
+  CustomAlertSound "AlertSound_04.wav" 300
 
 Show # 1 Socket Workaround
   Sockets == S
@@ -491,7 +500,7 @@ Show # 2 Socket Workaround
   SetFontSize 45
 	PlayEffect Green Temp
 
-	Show # Rare Jewellery
+Show # Rare Jewellery
 	Rarity  Rare
 	Class == "Amulets" "Rings" "Belts"
 	SetFontSize 45
@@ -516,13 +525,6 @@ Show # Magic Jewellery
 	SetBorderColor 0 75 250 255
 	SetBackgroundColor 0 20 40 255
   MinimapIcon 1 Blue Triangle
-
-Show # Magic
-	Rarity Magic
-	SetFontSize 35
-	SetTextColor 0 75 250 255
-	SetBorderColor 0 75 250 255
-	SetBackgroundColor 0 20 40 255
 
 Show # Normal Jewellery
 	Rarity Normal Magic
