@@ -2,7 +2,7 @@
 # PoE2-Filter
 Path of Exile (PoE) 2 的基础滤镜，在等待 NeverSink 完成他的版本期间使用。
 
-## [下载链接](https://github.com/mathon654/POE2-filter/archive/refs/tags/v1.0.2.zip)
+## [下载链接](https://github.com/mathon654/POE2-filter/archive/refs/tags/v1.1.0.zip)
 
 - ![img.png](img.png)
 
