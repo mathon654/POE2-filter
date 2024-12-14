@@ -4,7 +4,7 @@ Path of Exile (PoE) 2 的基础滤镜，在等待 NeverSink 完成他的版本�
 
 ## [下载链接](https://github.com/mathon654/POE2-filter/archive/refs/tags/v1.0.2.zip)
 
-![PoE2 Filter](https://i.imgur.com/8PAflBI.jpeg)
+- ![img.png](img.png)
 
 ## 修改内容
 - 无物品隐藏
