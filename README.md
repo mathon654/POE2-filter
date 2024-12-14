@@ -2,7 +2,7 @@
 # PoE2-Filter
 Path of Exile (PoE) 2 的基础滤镜，在等待 NeverSink 完成他的版本期间使用。
 
-## [下载链接](https://github.com/RetroCro/PoE2-Filter/archive/refs/heads/main.zip)
+## [下载链接](https://github.com/mathon654/POE2-filter/archive/refs/tags/v1.0.2.zip)
 
 ![PoE2 Filter](https://i.imgur.com/8PAflBI.jpeg)
 
@@ -41,14 +41,9 @@ Path of Exile (PoE) 2 的基础滤镜，在等待 NeverSink 完成他的版本�
 - 精英/专家基础物品
 - 唯一、稀有、魔法、普通物品
 
-## 新增严格滤镜
-重新分类了一些物品以适应“爆刷模式”。  
-![PoE2 Strict1](https://i.imgur.com/7W1kP4C.png)  
-![PoE2 Strict2](https://i.imgur.com/2lu4kZB.png)
 
 ## 安装方法
 - 游戏内：按 ESC -> 选项 -> 游戏选项卡 -> 文件夹图标
 - 将下载的滤镜文件放入该文件夹，在下拉菜单中选择 SCplebs 并在游戏内点击刷新。  
-  ![Install](https://i.imgur.com/oUAZUsb.png)
+- 如果没有提示重启游戏
 
-# PoE2-Filter  
