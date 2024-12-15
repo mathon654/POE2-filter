@@ -1,8 +1,19 @@
 
 # PoE2-Filter
 Path of Exile (PoE) 2 的基础滤镜，在等待 NeverSink 完成他的版本期间使用。
-
 ## [下载链接](https://github.com/mathon654/POE2-filter/releases)
+
+## 使用说明
+- 关闭迅游简体中文，要不然会报错
+- 新用户下载整体包内容 [下载链接](https://github.com/mathon654/POE2-filter/releases)，老用户可以直接下载定制内容 [下载链接](https://github.com/mathon654/POE2-filter/releases)
+
+## 安装方法
+- 游戏内：按 ESC -> 选项 -> 游戏选项卡 -> 文件夹图标
+- 解压下载的文件
+- 将解压后的文件夹放入文件夹中
+- ![img_1.png](img_1.png)
+- 游戏内：在下拉菜单中选择 烂命佬定制 或者 系统默认声音 并在游戏内点击刷新。  
+- 如果没有提示重启游戏
 
 - ![img.png](img.png)
 
@@ -15,13 +26,7 @@ Path of Exile (PoE) 2 的基础滤镜，在等待 NeverSink 完成他的版本�
 - 可以自定义音效
 - 默认音效为烂命佬的音效
 
-## 安装方法
-- 游戏内：按 ESC -> 选项 -> 游戏选项卡 -> 文件夹图标
-- 解压下载的文件
-- 将解压后的文件夹放入文件夹中
-- ![img_1.png](img_1.png)
-- 游戏内：在下拉菜单中选择 烂命佬定制 或者 系统默认声音 并在游戏内点击刷新。  
-- 如果没有提示重启游戏
+
 
 
 ## 定制音效
